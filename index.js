@@ -1,11 +1,13 @@
 const cards = ['Guadalupe', 'Ollie', 'Aki'];
 
-function writeCards(cards){
+function writeCards(cards) {
     for (let i = 0; i < cards.length; i++) {
-        console.log("Thank you, ${cards[i]} for the wonderfull surprice gift");
+        console.log('Thank you, ${cards[i]} for the wonderfull surprice gift');
         debugger;
     }
+
     return cards;
+    
 }
 writeCards(cards);
 
